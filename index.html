@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="stylesheet.css"
+      type="text/css"
+      charset="utf-8"
+    />
+    <title>Apple Timeline</title>
+  </head>
+  <body>
+    <div id="svgbackground"></div>
+    <div id="apple_timeline">
+      <div class="svgplaceholder" data-svgplaceholder="iPhoneXSMax"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhoneXS"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhoneXR"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhoneX"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhone8"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhone7"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhoneSE"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhone6s"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhone6"></div>
+      <div class="svgplaceholder" data-svgplaceholder="iPhone5"></div>
+    </div>
+    <section id="modal">
+      <div class="button"><button>Close</button></div>
+      <div class="modal_wrapper">
+        <img src="" alt="" />
+        <p data-description></p>
+      </div>
+    </section>
+
+    <template id="data_template">
+      <h1 data-iphone></h1>
+      <p>Height: <span data-height></span></p>
+      <p>Width: <span data-width></span></p>
+      <p>Depth: <span data-depth></span></p>
+      <p>Weight: <span data-Weight></span></p>
+      <div class="button-container">
+        <button>More</button>
+      </div>
+    </template>
+
+    <script>
+      "use strict";
+
+      window.addEventListener("DOMContentLoaded", loadSVG);
+      window.addEventListener("DOMContentLoaded", loadJSON);
+      window.addEventListener("resize", calculatedSizes);
+
+      // Loading the SVG
+      function loadSVG() {
+        fetch("background-01.svg")
+          .then(response => response.text())
+          .then(svgData => {
+            document
+              .querySelector("#svgbackground")
+              .insertAdjacentHTML("afterbegin", svgData);
+          });
+
+        fetch("timeline3.svg")
+          .then(response => response.text())
+          .then(svgData => {
+            document
+              .querySelector("#apple_timeline")
+              .insertAdjacentHTML("afterbegin", svgData);
+            calculatedSizes();
+          });
+      }
+
+      function loadJSON() {
+        fetch("data.json")
+          .then(data => data.json())
+          .then(myJSON => {
+            const temp = document.querySelector("#data_template");
+
+            // Class for all circles in my SVG-file
+            let circle = document.querySelectorAll("#apple_timeline .circle");
+            let iphone = document.querySelectorAll(
+              "#apple_timeline #inneriphone"
+            );
+            let information = document.querySelectorAll(
+              "#apple_timeline .svgplaceholder"
+            );
+
+            for (let i = 0; i < circle.length; i++) {
+              let year = circle[i];
+              console.log(year);
+
+              year.addEventListener("click", () => {
+                if (iphone[i].style.display === "block") {
+                  iphone[i].style.display = "none";
+                  information[i].style.display = "none";
+                  circle[i].classList.remove("circlehover");
+                } else {
+                  iphone[i].style.display = "block";
+                  information[i].style.display = "block";
+                  circle[i].classList.add("circlehover");
+                }
+              });
+            }
+
+            myJSON.forEach(obj => {
+              const clone = temp.cloneNode(true).content;
+
+              clone.querySelector("[data-iphone]").textContent = obj.iphone;
+              clone.querySelector("[data-height]").textContent =
+                obj.height + " mm";
+              clone.querySelector("[data-width]").textContent =
+                obj.width + " mm";
+              clone.querySelector("[data-depth]").textContent =
+                obj.depth + " mm";
+              clone.querySelector("[data-weight]").textContent =
+                obj.weight + " g";
+
+              clone.querySelector("button").addEventListener("click", () => {
+                showModal(obj);
+              });
+
+              document
+                .querySelector("[data-svgplaceholder =" + obj.id + "]")
+                .appendChild(clone);
+            });
+          });
+      }
+
+      function calculatedSizes() {
+        const svgplaceholders = document.querySelectorAll(".svgplaceholder");
+        svgplaceholders.forEach(replaceSVGwithHTML);
+      }
+
+      function replaceSVGwithHTML(htmlElement) {
+        const svgId = htmlElement.dataset.svgplaceholder;
+        const svgSelector = "#" + svgId + " .HTML_placeholder";
+        const svgElement = document.querySelector(svgSelector);
+
+        fitScreen(svgElement, htmlElement);
+      }
+
+      function fitScreen(svgElement, htmlElement) {
+        const rect = svgElement.getBoundingClientRect();
+
+        htmlElement.style.left = rect.x + "px";
+        htmlElement.style.top = rect.y + "px";
+
+        htmlElement.style.width = rect.width + "px";
+        htmlElement.style.height = rect.height + "px";
+      }
+
+      let modal = document.querySelector("#modal");
+
+      function showModal(obj) {
+        modal.classList.add("vis");
+
+        modal.querySelector("[data-description]").textContent = obj.description;
+        modal.querySelector("#modal > .modal_wrapper > img").src = obj.image;
+      }
+
+      document
+        .querySelector("#modal > .button > button")
+        .addEventListener("click", () => {
+          modal.classList.remove("vis");
+        });
+    </script>
+  </body>
+</html>

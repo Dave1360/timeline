@@ -1,0 +1,102 @@
+[
+  {
+    "id": "iPhone5",
+    "iphone": "iPhone 5",
+    "height": 123.8,
+    "width": 58.8,
+    "depth": 7.6,
+    "weight": 112,
+    "description": "The iPhone 5 is a smartphone that was designed and marketed by Apple Inc. It is the sixth generation of the iPhone succeeding the iPhone 4S and preceding the iPhone 5S and iPhone 5C. Formally unveiled as part of a press event on September 12, 2012, it was released on September 21, 2012",
+    "image": "pics/iphone5.png"
+  },
+  {
+    "id": "iPhone6",
+    "iphone": "iPhone 6",
+    "height": 138.1,
+    "width": 67,
+    "depth": 6.9,
+    "weight": 129,
+    "description": "The iPhone 6 and iPhone 6 Plus are smartphones designed and marketed by Apple Inc. It is the eighth generation of the iPhone, succeeding the iPhone 5S, and was announced on September 9, 2014 and released on September 19, 2014.",
+    "image": "pics/iphone6.png"
+  },
+  {
+    "id": "iPhone6s",
+    "iphone": "iPhone 6s",
+    "height": 138.3,
+    "width": 67.1,
+    "depth": 7.1,
+    "weight": 143,
+    "description": "The iPhone 6S and iPhone 6S Plus (stylized and marketed as iPhone 6s and iPhone 6s Plus) are smartphones that were designed, developed, and marketed by Apple Inc. It is the ninth generation of the iPhone. They were announced on September 9, 2015 at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, with pre-orders beginning September 12 and official release on September 25, 2015.",
+    "image": "pics/iphone6s.png"
+  },
+  {
+    "id": "iPhoneSE",
+    "iphone": "iPhone SE",
+    "height": 123.8,
+    "width": 58.6,
+    "depth": 7.6,
+    "weight": 113,
+    "description": "The iPhone SE (Special Edition) is a smartphone that was designed and marketed by Apple Inc. It is part of the ninth generation of the iPhone alongside the iPhone 6S. It was announced on March 21, 2016 at the Town Hall auditorium in the Apple Campus by Apple executive Greg Joswiak, with pre-orders beginning on March 24, and official release on March 31, 2016.",
+    "image": "pics/iphoneSE.png"
+  },
+  {
+    "id": "iPhone7",
+    "iphone": "iPhone 7",
+    "height": 1383.3,
+    "width": 67.1,
+    "depth": 7.6,
+    "weight": 138,
+    "description": "iPhone 7 and iPhone 7 Plus are smartphones designed, developed, and marketed by Apple Inc. It is the tenth generation of the iPhone. They were announced on September 7, 2016, at the Bill Graham Civic Auditorium in San Francisco by Apple CEO Tim Cook, and were released on September 16, 2016.",
+    "image": "pics/iphone7.png"
+  },
+  {
+    "id": "iPhone8",
+    "iphone": "iPhone 8",
+    "height": 138.4,
+    "width": 67.3,
+    "depth": 7.3,
+    "weight": 148,
+    "description": "The iPhone 8 and iPhone 8 Plus are smartphones designed, developed, and marketed by Apple Inc. It is the eleventh generation of the iPhone. They were announced on September 12, 2017, alongside the higher-end iPhone X, at the Steve Jobs Theater in the Apple Park campus, and were released on September 22, 2017.",
+    "image": "pics/iphone8.png"
+  },
+  {
+    "id": "iPhoneX",
+    "iphone": "iPhone X",
+    "height": 143.6,
+    "width": 70.9,
+    "depth": 7.7,
+    "weight": 174,
+    "description": "iPhone X (Roman numeral 'X' pronounced 'ten') is a smartphone designed, developed, and marketed by Apple Inc. It was the eleventh generation of the iPhone. It was announced on September 12, 2017, alongside the iPhone 8 and iPhone 8 Plus, at the Steve Jobs Theater in the Apple Park campus. The phone was released on November 3, 2017, marking the iPhone series' tenth anniversary.",
+    "image": "pics/iphonex.png"
+  },
+  {
+    "id": "iPhoneXR",
+    "iphone": "iPhone XR",
+    "height": 150.9,
+    "width": 75.7,
+    "depth": 8.3,
+    "weight": 194,
+    "description": "iPhone XR (stylized as iPhone Xr, Roman numeral 'X' pronounced 'ten') is a smartphone designed and manufactured by Apple, Inc. It is the twelfth generation of the iPhone. It was announced by Phil Schiller on September 12, 2018, at Steve Jobs Theater in the Apple Park campus, alongside the higher-priced iPhone XS and iPhone XS Max. Pre-orders began on October 19, 2018, with an official release on October 26, 2018.",
+    "image": "pics/iphoneXR.png"
+  },
+  {
+    "id": "iPhoneXS",
+    "iphone": "iPhone XS",
+    "height": 143.6,
+    "width": 70.9,
+    "depth": 7.7,
+    "weight": 177,
+    "description": "The iPhone XS and iPhone XS Max (stylized as iPhone Xs and iPhone Xs Max, Roman numeral 'X' pronounced 'ten') are candy bar and phablet, respectively, sized smartphones designed, developed and marketed by Apple Inc. They are the twelfth-generation flagships of the iPhone, succeeding the iPhone X. They were announced on September 12, 2018 alongside the lower-priced iPhone XR at the Steve Jobs Theater in the Apple Park, Cupertino by Apple CEO Tim Cook, with pre-orders beginning September 14, 2018 and official release on September 21, 2018.",
+    "image": "pics/iphoneXS.png"
+  },
+  {
+    "id": "iPhoneXSMax",
+    "iphone": "iPhone XS Max",
+    "height": 157.5,
+    "width": 77.4,
+    "depth": 7.7,
+    "weight": 208,
+    "description": "The iPhone XS and iPhone XS Max (stylized as iPhone Xs and iPhone Xs Max, Roman numeral 'X' pronounced 'ten') are candy bar and phablet, respectively, sized smartphones designed, developed and marketed by Apple Inc. They are the twelfth-generation flagships of the iPhone, succeeding the iPhone X. They were announced on September 12, 2018 alongside the lower-priced iPhone XR at the Steve Jobs Theater in the Apple Park, Cupertino by Apple CEO Tim Cook, with pre-orders beginning September 14, 2018 and official release on September 21, 2018.",
+    "image": "pics/iphoneXSMAX.png"
+  }
+]

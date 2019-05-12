@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="648" height="2758" viewBox="0 0 648 2758">
+  <g id="Iphone">
+ 
+    <g id="iPhoneXSMax">
+         <g id="inneriphone"> 
+          <rect class="HTML_placeholder" x="463" y="2432" width="171" height="313" rx="20.7"/>
+          <circle class="cls-1" cx="550" cy="2404" r="4"/>
+          <line class="cls-2" x1="529" y1="2416.5" x2="570" y2="2416.5"/>
+          <line class="cls-3" x1="647.25" y1="2424.75" x2="451.75" y2="2424.75"/>
+          <rect class="cls-3" x="452.5" y="2390.5" width="194" height="366" rx="25.67"/>
+          <line class="cls-3" x1="451.25" y1="2570.75" x2="360.5" y2="2570.5"/>
+          </g>
+          <text class="circle-text" transform="translate(311.56 2575.12)">2018</text>
+          <circle class="circle" cx="328" cy="2571" r="32.5"/>
+      </g>
+
+    <g id="iPhoneXS">
+         <g id="inneriphone"> 
+            <rect class="cls-3" x="10.5" y="2127.5" width="194"  height="366" rx="25.67"/>
+            <line class="cls-3" x1="205.25" y1="2161.75" x2="9.75" y2="2161.75"/>
+            <line class="cls-2" x1="87" y1="2153.5" x2="128" y2="2153.5"/>
+            <circle class="cls-1" cx="108" cy="2141" r="4"/>
+            <rect class="HTML_placeholder" x="21" y="2170" width="171" height="312" rx="16.61"/>
+            <line class="cls-3" x1="295.25" y1="2310.75" x2="204.5" y2="2310.5"/>
+          </g>
+          <text class="circle-text" transform="translate(311.56 2316.12)">2018</text>
+          <circle class="circle" cx="328" cy="2311" r="32.5"/>
+    </g>
+
+
+    <g id="iPhoneXR">
+       <g id="inneriphone"> 
+          <rect class="HTML_placeholder" x="463" y="1916.1" width="171" height="307.9" rx="16.61"/>
+          <circle class="cls-1" cx="550" cy="1884" r="4"/>
+          <line class="cls-2" x1="529" y1="1896.5" x2="570" y2="1896.5"/>
+          <line class="cls-3" x1="647.25" y1="1904.75" x2="451.75" y2="1904.75"/>
+          <rect class="cls-2" x="452.5" y="1870.5" width="194" height="366" rx="25.67"/>
+          <line class="cls-3" x1="451.25" y1="2050.75" x2="360.5" y2="2050.5"/>
+        </g>
+          <text class="circle-text" transform="translate(311.56 2055.12)">2018</text>
+          <circle class="circle" cx="328" cy="2051" r="32.5"/>
+      </g>
+
+
+    <g id="iPhoneX">
+        <text class="circle-text" transform="translate(311.56 1796.12)">2017</text>
+        <circle class="circle" cx="328" cy="1791" r="32.5"/>
+         <g id="inneriphone"> 
+            <line class="cls-3" x1="295.25" y1="1790.75" x2="204.5" y2="1790.5"/>
+            <rect class="cls-3" x="10.5" y="1607.5" width="194" height="366" rx="25.67"/>
+            <line class="cls-3" x1="205.25" y1="1641.75" x2="9.75" y2="1641.75"/>
+            <line class="cls-2" x1="87" y1="1633.5" x2="128" y2="1633.5"/>
+            <circle class="cls-1" cx="108" cy="1621" r="4"/>
+            <rect class="HTML_placeholder" x="21" y="1652.29" width="171" height="307.71" rx="14.43"/>
+        </g>
+     </g>
+
+
+    <g id="iPhone8">
+        <g id="inneriphone">
+            <rect class="cls-1" x="543" y="1685" width="9" height="9"/>
+            <rect class="HTML_placeholder" x="461" y="1393.1" width="171" height="260.9"/>
+            <circle class="cls-1" cx="548" cy="1361" r="4"/>
+            <line class="cls-2" x1="527" y1="1373.5" x2="568" y2="1373.5"/>
+            <circle class="cls-3" cx="547.5" cy="1689.5" r="16"/>
+            <line class="cls-3" x1="645.25" y1="1665.75" x2="449.75" y2="1665.75"/>
+            <rect class="cls-3" x="450.5" y="1347.5" width="194" height="366" rx="25.67"/>
+            <line class="cls-3" x1="449.25" y1="1527.75" x2="358.5" y2="1527.5"/>
+            <line class="cls-3" x1="645.25" y1="1381.75" x2="449.75" y2="1381.75"/>
+         </g>
+            <text class="circle-text" transform="translate(309.56 1532.12)">2017</text>
+            <circle class="circle" cx="326" cy="1528" r="32.5"/>
+    </g>
+    
+    <g id="iPhone7">
+      <text class="circle-text" transform="translate(309.56 1273.12)">2016</text>
+      <circle class="circle" cx="326" cy="1268" r="32.5"/>
+        <g id="inneriphone">
+          <line class="cls-3" x1="293.25" y1="1267.75" x2="202.5" y2="1267.5"/>
+          <rect class="cls-3" x="8.5" y="1084.5" width="194" height="366" rx="25.67"/>
+          <line class="cls-3" x1="203.25" y1="1402.75" x2="7.75" y2="1402.75"/>
+          <circle class="cls-3" cx="105.5" cy="1426.5" r="16"/>
+          <line class="cls-3" x1="203.25" y1="1118.75" x2="7.75" y2="1118.75"/>
+          <line class="cls-2" x1="85" y1="1110.5" x2="126" y2="1110.5"/>
+          <circle class="cls-1" cx="106" cy="1098" r="4"/>
+          <rect class="HTML_placeholder" x="19" y="1130.1" width="171" height="260.9"/>
+          <rect class="cls-1" x="101" y="1422" width="9" height="9"/>
+      </g>
+     </g>
+
+    <g id="iPhoneSE">
+      <text class="circle-text" transform="translate(307.56 1012.12)">2016</text>
+      <circle class="circle" cx="324" cy="1008" r="32.5"/>
+        <g id="inneriphone">
+          <line class="cls-3" x1="447.25" y1="1007.75" x2="356.5" y2="1007.5"/>
+          <rect class="cls-3" x="448.5" y="827.5" width="194" height="366" rx="25.67"/>
+          <line class="cls-3" x1="643.25" y1="1145.75" x2="447.75" y2="1145.75"/>
+          <circle class="cls-3" cx="545.5" cy="1169.5" r="16"/>
+          <line class="cls-3" x1="643.25" y1="861.75" x2="447.75" y2="861.75"/>
+          <line class="cls-2" x1="525" y1="853.5" x2="566" y2="853.5"/>
+          <circle class="cls-1" cx="546" cy="841" r="4"/>
+          <rect class="HTML_placeholder" x="459" y="873.1" width="171" height="260.9"/>
+          <rect class="cls-1" x="541" y="1165" width="9" height="9"/>
+      </g>
+    </g>
+
+    <g id="iPhone6s">
+      <text class="circle-text" transform="translate(307.56 753.12)">2015</text>
+      <circle class="circle" cx="324" cy="748" r="32.5"/>
+       <g id="inneriphone">
+            <line class="cls-3" x1="291.25" y1="747.75" x2="200.5" y2="747.5"/>
+            <rect class="cls-3" x="6.5" y="564.5" width="194" height="366" rx="25.67"/>
+            <line class="cls-3" x1="201.25" y1="882.75" x2="5.75" y2="882.75"/>
+            <circle class="cls-3" cx="103.5" cy="906.5" r="16"/>
+            <rect class="HTML_placeholder" x="17" y="610.1" width="171" height="260.9"/>
+            <rect class="cls-1" x="99" y="902" width="9" height="9"/>
+            <line class="cls-3" x1="201.25" y1="598.75" x2="5.75" y2="598.75"/>
+            <circle class="cls-1" cx="104" cy="578" r="4"/>
+            <line class="cls-2" x1="83" y1="590.5" x2="124" y2="590.5"/>
+      </g>
+    </g>
+
+    <g id="iPhone6">
+        <g id="inneriphone">
+          <line class="cls-3" x1="446.25" y1="487.75" x2="355.5" y2="487.5"/>
+          <rect class="cls-3" x="447.5" y="307.5" width="194" height="366" rx="25.67"/>
+          <line class="cls-3" x1="642.25" y1="625.75" x2="446.75" y2="625.75"/>
+          <circle class="cls-3" cx="544.5" cy="649.5" r="16"/>
+          <line class="cls-2" x1="524" y1="333.5" x2="565" y2="333.5"/>
+          <circle class="cls-1" cx="545" cy="321" r="4"/>
+          <rect class="HTML_placeholder" x="458" y="353.1" width="171" height="260.9"/>
+          <rect class="cls-1" x="540" y="645" width="9" height="9"/>
+          <line class="cls-3" x1="642.25" y1="341.75" x2="446.75" y2="341.75"/>
+       </g>
+        <text class="circle-text" transform="translate(306.56 492.12)">2014</text>
+        <circle class="circle" cx="324" cy="487" r="32.5"/>
+    </g>
+
+    <g id="iPhone5">
+      <text class="circle-text" transform="translate(306.56 233.12)">2012</text>
+      <circle class="circle" cx="324" cy="228" r="32.5"/>
+      <g id="inneriphone">
+        <line class="cls-3" x1="290.25" y1="227.75" x2="199.5" y2="227.5"/>
+        <rect class="cls-3" x="5.5" y="44.5" width="194" height="366" rx="25.67"/>
+        <line class="cls-3" x1="200.25" y1="362.75" x2="4.75" y2="362.75"/>
+        <circle class="cls-3" cx="102.5" cy="386.5" r="16"/>
+        <line class="cls-3" x1="200.25" y1="78.75" x2="4.75" y2="78.75"/>
+        <line class="cls-2" x1="82" y1="70.5" x2="123" y2="70.5"/>
+        <circle class="cls-1" cx="103" cy="58" r="4"/>
+        <rect class="HTML_placeholder" x="16" y="90.1" width="171" height="260.9"/>
+        <rect class="cls-1" x="98" y="382" width="9" height="9"/>
+      </g>
+    </g>
+
+    <line class="cls-3" x1="323.5" x2="323.5" y2="195.5"/>
+    <line class="cls-3" x1="323.5" y1="260" x2="323.5" y2="455.5"/>
+    <line class="cls-3" x1="324.5" y1="520" x2="324.5" y2="715.5"/>
+    <line class="cls-3" x1="324.5" y1="780" x2="324.5" y2="975.5"/>
+    <line class="cls-3" x1="328.5" y1="2083" x2="328.5" y2="2278.5"/>
+    <line class="cls-3" x1="328.5" y1="2343" x2="328.5" y2="2538.5"/>
+    <line class="cls-3" x1="328.5" y1="1563" x2="328.5" y2="1758.5"/>
+    <line class="cls-3" x1="328.5" y1="1823" x2="328.5" y2="2018.5"/>
+    <line class="cls-3" x1="326.5" y1="1300" x2="326.5" y2="1495.5"/>
+    <line class="cls-3" x1="326.5" y1="1040" x2="326.5" y2="1235.5"/>
+  </g>
+</svg>
